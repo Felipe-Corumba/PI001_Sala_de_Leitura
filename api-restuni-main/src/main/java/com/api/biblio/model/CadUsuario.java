@@ -40,6 +40,7 @@ public class CadUsuario implements Serializable {
 	private int serie;
 	
 	//String para validação de e-mail
+	//Tutorial: https://howtodoinjava.com/java/regex/java-regex-validate-email-address/
 	private String regex = "^[\\w!#$%&’*+/=?`{|}~^-]+(?:\\.[\\w!#$%&’*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$";
 	//private Pattern pattern = Pattern.compile(regex);
 	
